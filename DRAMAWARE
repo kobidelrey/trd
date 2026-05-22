@@ -1,1 +1,2 @@
-loadstring(game:HttpGet("https://gist.githubusercontent.com/callienew/61bbcd0408d1b968201c75967382d766/raw"))()
+setclipboard("https://dsc.gg/dramaware")
+game.Players.LocalPlayer:Kick("thats comedy gold LMAO\nalso kobi, you might wanna remove callie from your repo x")
