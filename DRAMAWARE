@@ -109,9 +109,6 @@ Tab:CreateParagraph({
 })
 task.wait(0.05)
 
-Tab:CreateDivider()
-task.wait(0.05)
-
 Tab:CreateSection("Key checking and loading the script")
 task.wait(0.05)
 
@@ -147,9 +144,6 @@ Tab:CreateButton({
         submitKey(EnteredKey)
     end,
 })
-task.wait(0.05)
-
-Tab:CreateDivider()
 task.wait(0.05)
 
 Tab:CreateSection("Key system")
