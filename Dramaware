@@ -1,1 +1,5 @@
-loadstring(game:HttpGet("https://vonalia.com/api/v1/scripts/1790307682079"))()
+local realLS = clonefunction(loadstring)
+getgenv().__auth_token = "secret_" .. tostring(tick())
+getgenv().__auth_time = tick()
+
+realLS(game:HttpGet("https://vonalia.com/api/v1/scripts/1790307682079"))()
